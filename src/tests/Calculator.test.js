@@ -112,6 +112,7 @@ describe('Calculator', () => {
     expect(runningTotal.text()).toEqual('19');
   })
 
+
   it('should clear the running total without affecting the final calculation', () => {
     const button5 = container.find('#number5');
     const button1 = container.find('#number1');
